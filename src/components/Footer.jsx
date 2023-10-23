@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 
 function Footer() {
   return (
-    <Container fluid className="bg-dark text-white h-auto" style={{maxHeight:"300px"}}>
+    <Container fluid className="bg-white text-dark h-auto" style={{maxHeight:"300px"}}>
       <Row>
         <Col>Twitter</Col>
         <Col>LinkedIn</Col>

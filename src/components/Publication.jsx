@@ -10,6 +10,8 @@ const Publication = () => {
 		}
 	]
   return (
+	<div className="bg-dark">
+
     <Container className="" style={{style}}>
       <ListGroup variant="flush" className="bg-dark text-white">
         <h2 className="text-center">Publications</h2>
@@ -133,6 +135,7 @@ const Publication = () => {
         </ListGroup.Item>
       </ListGroup>
     </Container>
+	</div>
   );
 };
 
