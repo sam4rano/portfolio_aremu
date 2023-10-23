@@ -3,17 +3,18 @@ import Container from "react-bootstrap/Container";
 
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import "./navbar.css"
 
 const NavBar = () => {
   return (
     <Navbar expand="lg" className="bg-dark text-light">
       <Container fluid className="d-flex flex-row justify-content-between">
         <Navbar.Brand href="#" className="text-light fs-2">
-          Aremu
+          AdeolaJr
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" className="bg-light" />
         <Navbar.Collapse id="navbarScroll" className="">
-          <div className="d-flex flex-row ms-auto">
+          <div className="d-flex flex-row ms-auto nav_container">
             <Nav
               className=" my-2 text-light"
               style={{ maxHeight: "150px" }}

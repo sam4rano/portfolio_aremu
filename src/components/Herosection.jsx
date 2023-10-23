@@ -5,7 +5,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import "./herosection.css"
+import "./herosection.css";
+import Typewriter from "typewriter-effect";
 
 const Herosection = () => {
   return (
@@ -13,12 +14,18 @@ const Herosection = () => {
       <div className="container_all">
         <div className="col img_container text-white border-2">
           <Image src={Aremu} fluid />
-          <p style={{ marginLeft: "150px", fontSize: "20px" }}>
-            Aremu Adeola Jr.
+          <p style={{ marginLeft: "150px", fontSize: "30px" }}>
+            <Typewriter
+              options={{
+                strings: ["Aremu Adeola Jr"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </p>
         </div>
-        <div className="col text-white" style={{paddingTop:"70px"}}>
-          <p className="fs-4 text-center">
+        <div className="col text-white" style={{ paddingTop: "70px" }}>
+          <p className="fs-5 text-center">
             I am a linguist with 5 years of experience in African language
             advocacy, research, and technology. I created Yooba Lingo, the first
             African indigenous language crossword board game to aid the learning
