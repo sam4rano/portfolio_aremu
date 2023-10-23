@@ -18,7 +18,7 @@ const Herosection = () => {
           </p>
         </div>
         <div className="col text-white" style={{paddingTop:"70px"}}>
-          <p className="fs-4">
+          <p className="fs-4 text-center">
             I am a linguist with 5 years of experience in African language
             advocacy, research, and technology. I created Yooba Lingo, the first
             African indigenous language crossword board game to aid the learning

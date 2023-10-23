@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import ListGroup from "react-bootstrap/ListGroup";
 const Experience = () => {
   return (
-    <Container>
+    <Container className="my-5">
       <h1 className="text-center text-dark fs-1 py-2">Experience</h1>
       <ListGroup variant="flush">
         <h2>Masakhane NLP Researcher / Linguistic Project Coordinator</h2>
@@ -31,13 +31,21 @@ const Experience = () => {
           Performed human model evaluation of a model trained majorly on dataset
           from the news domain.
         </ListGroup.Item>
-
-        <h1 className="text-center text-dark fs-3 py-5">
-          Aremu Language Consult Limited
-        </h1>
         <ListGroup.Item>
-          Founder/C.E.O December 2018 - Present (4 years 10 months) Majaro,
+          <strong> Aremu Language Consult Limited</strong>
+          <br />
+          <em> Founder/C.E.O</em>
+          <br />
+          December 2018 - Present (4 years 10 months) Majaro,
           Yaba, Lagos
+          <br />
+          - Leading the development of rule-based guides to aid the development
+          of numerical model development in Yorùbá language.
+          <br />
+          - Supplying the written and spoken form of contents needed for the
+          project to develop text-to-speech tools.
+          <br />- Evaluating cardinal and ordinal numeral formats in relation to
+          contextual use in the project.
         </ListGroup.Item>
         <ListGroup.Item>
           <strong>TELUS International</strong>
