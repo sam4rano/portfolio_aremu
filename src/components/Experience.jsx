@@ -2,8 +2,8 @@ import Container from "react-bootstrap/Container";
 import ListGroup from "react-bootstrap/ListGroup";
 const Experience = () => {
   return (
-    <Container className="my-5">
-      <h1 className="text-center text-dark fs-1 py-2">Experience</h1>
+    <Container className="my-2">
+      <h1 className="text-center text-dark fs-1 pt-2">Experience</h1>
       <ListGroup variant="flush">
         <h2>Masakhane NLP Researcher / Linguistic Project Coordinator</h2>
         <ListGroup.Item>

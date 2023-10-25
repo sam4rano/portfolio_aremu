@@ -14,7 +14,7 @@ const Publication = () => {
 
     <Container className="" style={{style}}>
       <ListGroup variant="flush" className="bg-dark text-white">
-        <h2 className="text-center">Publications</h2>
+        <h2 className="text-center pt-2">Publications</h2>
         <ListGroup.Item as="li" className="bg-dark text-white">
           <strong>Anuoluwapo Aremu, Jesujoba Alabi, David Adelani.</strong>{" "}
           <em>YORC: Yoruba Reading Comprehension Dataset.</em> Widening NLP
