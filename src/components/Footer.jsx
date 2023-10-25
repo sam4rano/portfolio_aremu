@@ -65,14 +65,14 @@ function Footer() {
         <li>
           <BiPhone />
 
-          <a href="#" target="_blank" rel="noreferrer">
+          <a href="#">
             +2349090612374
           </a>
         </li>
         <li>
           <BiEnvelope />
 
-          <a href="#" target="_blank" rel="noreferrer">
+          <a href="#">
             aremuadeola97@gmail.com
           </a>
         </li>
