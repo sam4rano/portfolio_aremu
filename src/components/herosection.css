@@ -1,7 +1,13 @@
 .container_all {
 	display: flex;
 	flex-direction: row;
+	justify-content:space-around;
 	
+}
+
+.img_one {
+	width: 50%;
+	height:350px;
 }
 
 
@@ -17,6 +23,12 @@
 	.img_container {
 		display:block;
 		padding-top: 30px;
+	}
+	.img_one {
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		width:100%;
 	}
 }
 

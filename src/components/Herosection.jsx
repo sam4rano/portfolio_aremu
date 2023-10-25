@@ -1,4 +1,4 @@
-import Aremu from "../assets/aremubg.png";
+import Aremu from "../assets/arem.png";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
@@ -11,10 +11,10 @@ import Typewriter from "typewriter-effect";
 const Herosection = () => {
   return (
     <Container fluid className="bg-dark h-auto ">
-      <div className="container_all">
+      <div className="container_all p-5">
         <div className="col img_container text-white border-2">
-          <Image src={Aremu} fluid />
-          <p style={{ marginLeft: "150px", fontSize: "30px" }}>
+          <img src={Aremu} alt="adeola pics" className="border img_one" />
+          <p style={{ marginLeft: "60px", fontSize: "30px" }}>
             <Typewriter
               options={{
                 strings: ["Aremu Adeola Jr"],
@@ -24,7 +24,7 @@ const Herosection = () => {
             />
           </p>
         </div>
-        <div className="col text-white" style={{ paddingTop: "70px" }}>
+        <div className="col text-white fst-italic" style={{ paddingTop: "70px" }}>
           <p className="fs-5 text-center">
             I am a linguist with 5 years of experience in African language
             advocacy, research, and technology. I created Yooba Lingo, the first

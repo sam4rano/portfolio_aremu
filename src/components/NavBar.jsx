@@ -16,7 +16,7 @@ const NavBar = () => {
         <Navbar.Collapse id="navbarScroll" className="">
           <div className="d-flex flex-row ms-auto nav_container">
             <Nav
-              className=" my-2 text-light"
+              className=" my-2 text-light nav_con"
               style={{ maxHeight: "150px" }}
               navbarScroll
             >
