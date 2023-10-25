@@ -10,7 +10,7 @@ import Typewriter from "typewriter-effect";
 
 const Herosection = () => {
   return (
-    <Container fluid className="bg-dark h-auto ">
+    <Container fluid className="bghero h-auto ">
       <div className="container_all p-5">
         <div className="col img_container text-white border-2">
           <img src={Aremu} alt="adeola pics" className="border img_one" />

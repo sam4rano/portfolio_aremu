@@ -1,3 +1,7 @@
+.bghero {
+	background-color: #333D51;
+}
+
 .container_all {
 	display: flex;
 	flex-direction: row;

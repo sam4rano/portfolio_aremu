@@ -1,37 +1,40 @@
 import Container from "react-bootstrap/Container";
 import ListGroup from "react-bootstrap/ListGroup";
+import "./experience.css"
 const Experience = () => {
   return (
-    <Container className="my-2">
-      <h1 className="text-center text-dark fs-1 pt-2">Experience</h1>
-      <ListGroup variant="flush">
+    <div className="bgcon">
+
+    <Container className="my-2 bgexperience">
+      <h1 className="text-center text-black bg-white fs-1 pt-2">Experience</h1>
+      <ListGroup variant="flush" className="lst">
         <h5>Masakhane NLP Researcher / Linguistic Project Coordinator</h5>
-        <ListGroup.Item>
+        <ListGroup.Item className="lst">
           Working as an annotator on a collaboration project on Question
           Answering.
         </ListGroup.Item>
-        <ListGroup.Item>
+        <ListGroup.Item className="lst">
           Coordinating a team of 5 translators working on the translation of
           about 200 scientific research papers from English to Yorùbá language.
         </ListGroup.Item>
-        <ListGroup.Item>
+        <ListGroup.Item className="lst">
           Led a team of 3 annotators who worked on a multi-modal translation and
           computer vision project.
         </ListGroup.Item>
-        <ListGroup.Item>
+        <ListGroup.Item className="lst">
           Coordinated 6 annotators on a combined 4000 text datasets who worked
           on Named Entity Recognition Annotation and Parts of Speech Tagging
           project.
         </ListGroup.Item>
-        <ListGroup.Item>
+        <ListGroup.Item className="lst">
           Led a team of translators who translated 8000 sentences from English
           language to Nigerian Pidgin English.
         </ListGroup.Item>
-        <ListGroup.Item>
+        <ListGroup.Item className="lst">
           Performed human model evaluation of a model trained majorly on dataset
           from the news domain.
         </ListGroup.Item>
-        <ListGroup.Item>
+        <ListGroup.Item className="lst">
           <strong> Aremu Language Consult Limited</strong>
           <br />
           <em> Founder/C.E.O</em>
@@ -47,7 +50,7 @@ const Experience = () => {
           <br />- Evaluating cardinal and ordinal numeral formats in relation to
           contextual use in the project.
         </ListGroup.Item>
-        <ListGroup.Item>
+        <ListGroup.Item className="lst">
           <strong>TELUS International</strong>
           <br />
           <em>Phonetician</em>
@@ -63,7 +66,7 @@ const Experience = () => {
           contextual use in the project.
         </ListGroup.Item>
 
-        <ListGroup.Item>
+        <ListGroup.Item className="lst">
           <strong>Amazéthu</strong>
           <br />
           <em>Lead Speech Annotator</em>
@@ -84,7 +87,7 @@ const Experience = () => {
           swift by about 55% optimization.
         </ListGroup.Item>
 
-        <ListGroup.Item>
+        <ListGroup.Item className="lst">
           <strong>Translators without Borders</strong>
           <br />
           <em>Terminologist</em>
@@ -106,7 +109,7 @@ const Experience = () => {
           translation works.
         </ListGroup.Item>
 
-        <ListGroup.Item>
+        <ListGroup.Item className="lst">
           <strong>Yoruba Name</strong>
           <br />
           <em>Lexicographer</em>
@@ -125,6 +128,7 @@ const Experience = () => {
         </ListGroup.Item>
       </ListGroup>
     </Container>
+    </div>
   );
 };
 

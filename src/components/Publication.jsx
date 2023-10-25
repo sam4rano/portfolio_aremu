@@ -1,5 +1,6 @@
 import Container from "react-bootstrap/Container";
 import ListGroup from "react-bootstrap/ListGroup";
+import "./pub.css"
 
 const Publication = () => {
 
@@ -10,24 +11,24 @@ const Publication = () => {
 		}
 	]
   return (
-	<div className="bg-dark">
+	<div className="bgpub">
 
     <Container className="" style={{style}}>
-      <ListGroup variant="flush" className="bg-dark text-white">
+      <ListGroup variant="flush" className="bg-white text-dark">
         <h2 className="text-center pt-2">Publications</h2>
-        <ListGroup.Item as="li" className="bg-dark text-white">
+        <ListGroup.Item as="li" className="pblst text-white">
           <strong>Anuoluwapo Aremu, Jesujoba Alabi, David Adelani.</strong>
           <em>YORC: Yoruba Reading Comprehension Dataset.</em> Widening NLP
           Workshop at Empirical Methods of Natural Language Processing (2023)
         </ListGroup.Item>
-        <ListGroup.Item as="li" className="bg-dark text-white">
+        <ListGroup.Item as="li" className="pblst text-white">
           <strong>
             Tolulope Ogunremi, Kola Tubosun, Anuoluwapo Aremu, Iroro Orife,
             David Ifeoluwa Adelani.
           </strong>{" "}
           <em>Ìròyìnspeech: A Multi-Purpose YorùbáSpeech Corpus.</em> (2023)
         </ListGroup.Item>
-        <ListGroup.Item as="li" className="bg-dark text-white">
+        <ListGroup.Item as="li" className="pblst text-white">
           <strong>
             Anubha Kabra, Emmy Liu, Simran Khanuja, Alham Fikri Aji, Genta Indra
             Winata, Samuel Cahyawijaya, Anuoluwapo Aremu, Perez Ogayo, Graham
@@ -36,7 +37,7 @@ const Publication = () => {
           Multi-Lingual and Multi-Cultural Figurative Language Understanding.
           Association of Computational Linguistics (2023)
         </ListGroup.Item>
-        <ListGroup.Item as="li" className="bg-dark text-white">
+        <ListGroup.Item as="li" className="pblst text-white">
           <strong>
             Cheikh M. Bamba Dione, David Adelani, Peter Nabende, Jesujoba Alabi,
             Thapelo Sindane, Happy Buzaaba, Shamsuddeen Hassan Muhammad, Chris
@@ -45,7 +46,7 @@ const Publication = () => {
           MasakhaPOS: Part-of-Speech Tagging for Typologically Diverse African
           Languages. Association of Computational Linguistics (2023)
         </ListGroup.Item>
-        <ListGroup.Item as="li" className="bg-dark text-white">
+        <ListGroup.Item as="li" className="pblst text-white">
           <strong>
             Tosin P. Adewumi, Mofetoluwa Adeyemi, Aremu Anuoluwapo et al.
           </strong>{" "}
@@ -53,7 +54,7 @@ const Publication = () => {
           Generation of Dialogue in Low-Resource, African Languages.
           International Joint Conference on Neural Networks (2023)
         </ListGroup.Item>
-        <ListGroup.Item as="li" className="bg-dark text-white">
+        <ListGroup.Item as="li" className="pblst text-white">
           <strong>
             David Ifeoluwa Adelani, Marek Masiak, Israel Abebe Azime, Jesujoba
             Alabi, …, Anuoluwapo Aremu et al.
@@ -62,7 +63,7 @@ const Publication = () => {
           AfricaNLP Workshop at International Conference on Learning
           Representations (2023)
         </ListGroup.Item>
-        <ListGroup.Item as="li" className="bg-dark text-white">
+        <ListGroup.Item as="li" className="pblst text-white">
           <strong>
             Odunayo Ogundepo, Tajuddeen R. Gwadabe, Clara E. Rivera, Jonathan H.
             Clark, Sebastian Ruder, David Ifeoluwa Adelani, Bonaventure F. P.
@@ -71,7 +72,7 @@ const Publication = () => {
           AfriQA: Cross-Lingual Open-Retrieval Question Answering for African
           Languages (2023)
         </ListGroup.Item>
-        <ListGroup.Item as="li" className="bg-dark text-white">
+        <ListGroup.Item as="li" className="pblst text-white">
           <strong>
             David Adelani, Graham Nuebig, Sebastian Ruder, …, Anuoluwapo Aremu
             et al.
@@ -79,7 +80,7 @@ const Publication = () => {
           MasakhaNER 2.0: Africa-centric Transfer Learning for Named Entity
           Recognition. Empirical Methods in Natural Language Processing (2022)
         </ListGroup.Item>
-        <ListGroup.Item as="li" className="bg-dark text-white">
+        <ListGroup.Item as="li" className="pblst text-white">
           <strong>
             Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Ibrahim Sa’id
             Ahmed, Idris Abdulmumin, …, Anuoluwapo Aremu et al.
@@ -88,7 +89,7 @@ const Publication = () => {
           Sentiment Analysis. The International Conference of Language Resources
           and Evaluation (2022)
         </ListGroup.Item>
-        <ListGroup.Item as="li" className="bg-dark text-white" >
+        <ListGroup.Item as="li" className="pblst text-white" >
           <strong>
             David Ifeoluwa Adelani, Jesujoba Oluwadara Alabi, Angela Fan, Julia
             Kreutzer, …, Anuoluwapo Aremu et al.
@@ -97,7 +98,7 @@ const Publication = () => {
           Models for African News Translation. North American Association of
           Computational Linguistics (2022)
         </ListGroup.Item>
-        <ListGroup.Item as="li" className="bg-dark text-white">
+        <ListGroup.Item as="li" className="pblst text-white">
           <strong>
             Tosin Adewumi, Mofetoluwa Adeyemi, Aremu Anuoluwapo et al.
           </strong>{" "}
@@ -105,7 +106,7 @@ const Publication = () => {
           Language Generation of Dialogues in Low-Resource, African Languages.
           International Conference of Learning Representation (2022)
         </ListGroup.Item>
-        <ListGroup.Item as="li" className="bg-dark text-white">
+        <ListGroup.Item as="li" className="pblst text-white">
           <strong>
             David Adelani, Jade Abbott, Graham Nuebig, …, Anuoluwapo Aremu et
             al.
@@ -114,7 +115,7 @@ const Publication = () => {
           Transactions of the Association for Computational Linguistics (2021)
           9: 1116–1131
         </ListGroup.Item>
-        <ListGroup.Item as="li" className="bg-dark text-white">
+        <ListGroup.Item as="li" className="pblst text-white">
           <strong>
             Sebastain Gehrmann, Tosin Adewumi, Karmanya Addarwal, Pawal Sasanka,
             Ammanamanchi, …, Aremu Anuoluwapo et al.
@@ -122,15 +123,15 @@ const Publication = () => {
           The GEM Benchmark: Natural Language Generation, its Evaluation and
           Metrics. Association for Computational Linguistics (2021)
         </ListGroup.Item>
-        <ListGroup.Item as="li" className="bg-dark text-white">
+        <ListGroup.Item as="li" className="pblst text-white">
           The Morphology Analysis of Yoruba Personal and Yoruba Praise Names
           (2021) - B.A. Project
         </ListGroup.Item>
-        <ListGroup.Item as="li" className="bg-dark text-white">
+        <ListGroup.Item as="li" className="pblst text-white">
           Lost in translation: Why Google Translate often gets Yoruba — and
           other languages — wrong. Global Voices (2020)
         </ListGroup.Item>
-        <ListGroup.Item as="li" className="bg-dark text-white">
+        <ListGroup.Item as="li" className="pblst text-white">
           Yoruba Loan Words: How Language Evolves. Global Voices (2020)
         </ListGroup.Item>
       </ListGroup>

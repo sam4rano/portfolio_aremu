@@ -15,7 +15,7 @@ function Footer() {
   return (
     <Container
       fluid
-      className="bg-primary text-white h-auto p-2 d-flex flex-row justify-content-around"
+      className="bgadded text-white h-auto p-2 d-flex flex-row justify-content-around"
       style={{ maxHeight: "300px" }}
     >
       <h5 className="w-20 mt-5"> Social links</h5>
@@ -61,7 +61,7 @@ function Footer() {
           </a>
         </li>
       </ul>
-      <ul className="w-40">
+      <ul className="w-40 pt-5">
         <li>
           <BiPhone />
 

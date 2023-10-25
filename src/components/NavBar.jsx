@@ -12,9 +12,9 @@ const NavBar = ({ handleExperience, handlePublication,handleFooter }) => {
 
  
   return (
-    <Navbar expand="lg" className="bg-dark text-light allnav">
+    <Navbar expand="lg" className="bgnav text-light allnav">
       <Container fluid className="d-flex flex-row justify-content-between">
-        <Navbar.Brand href="#" className="text-light fs-2">
+        <Navbar.Brand href="#" className="text-light fs-2 bgbrand">
           AdeolaJr
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" className="bg-light" />
@@ -36,7 +36,7 @@ const NavBar = ({ handleExperience, handlePublication,handleFooter }) => {
                 Blogs
               </Nav.Link>
             </Nav>
-            <Button className="text-white fs-4" onClick={handleFooter}>Contact me</Button>
+            <button className="text-white fs-5 but" onClick={handleFooter}>Contact me</button>
           </div>
         </Navbar.Collapse>
       </Container>
