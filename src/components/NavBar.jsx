@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 
@@ -5,9 +6,13 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./navbar.css"
 
-const NavBar = () => {
+const NavBar = ({ handleExperience, handlePublication,handleFooter }) => {
+
+  
+
+ 
   return (
-    <Navbar expand="lg" className="bg-dark text-light">
+    <Navbar expand="lg" className="bg-dark text-light allnav">
       <Container fluid className="d-flex flex-row justify-content-between">
         <Navbar.Brand href="#" className="text-light fs-2">
           AdeolaJr
@@ -20,23 +25,29 @@ const NavBar = () => {
               style={{ maxHeight: "150px" }}
               navbarScroll
             >
-              <Nav.Link href="#action1" className="text-light fs-5">
+              <Nav.Link href="#" onClick={handlePublication} className="text-light fs-5">
                 Publications
               </Nav.Link>
-              <Nav.Link href="#action2" className="text-light fs-5">
+              <Nav.Link href="#" onClick={handleExperience} className="text-light fs-5">
                 Experience
               </Nav.Link>
 
               <Nav.Link href="#" className="text-light fs-5">
-                Blog
+                Blogs
               </Nav.Link>
             </Nav>
-            <Button className="text-white fs-4 p-2">Contact me</Button>
+            <Button className="text-white fs-4" onClick={handleFooter}>Contact me</Button>
           </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
+};
+
+NavBar.propTypes = {
+  handleExperience: PropTypes.func.isRequired,
+  handlePublication: PropTypes.func.isRequired,
+  handleFooter: PropTypes.func.isRequired,
 };
 
 export default NavBar;

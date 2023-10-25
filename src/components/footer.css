@@ -1,0 +1,26 @@
+ul, li, a {
+	list-style-type: none;
+	text-decoration: none;
+	font-size: small;
+	font-weight: 300;
+
+
+}
+a:link {
+	color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+	color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+	color: black;
+  }
+  
+  /* selected link */
+  a:active {
+	color: white;
+  }

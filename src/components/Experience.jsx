@@ -5,7 +5,7 @@ const Experience = () => {
     <Container className="my-2">
       <h1 className="text-center text-dark fs-1 pt-2">Experience</h1>
       <ListGroup variant="flush">
-        <h4>Masakhane NLP Researcher / Linguistic Project Coordinator</h4>
+        <h5>Masakhane NLP Researcher / Linguistic Project Coordinator</h5>
         <ListGroup.Item>
           Working as an annotator on a collaboration project on Question
           Answering.
