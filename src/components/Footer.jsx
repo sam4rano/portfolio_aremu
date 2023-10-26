@@ -19,7 +19,7 @@ function Footer() {
       style={{ maxHeight: "300px" }}
     >
       <h5 className="w-20 mt-5"> Social links</h5>
-      <ul className="d-flex flex-column w-40">
+      <ul className="d-flex flex-column w-40 mt-3">
         <li>
           <BiLogoTwitter />
           <a
