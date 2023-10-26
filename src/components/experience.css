@@ -1,7 +1,8 @@
-.bgexperience {
+.bgexperience .lst {
 	background-color: #333D51;
+	color: white;
 }
-.lst {
+.lst, .lst1 {
 	background-color: #333D51;
 	color:white;
 }

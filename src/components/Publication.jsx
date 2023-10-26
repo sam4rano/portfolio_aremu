@@ -14,7 +14,7 @@ const Publication = () => {
 	<div className="bgpub">
 
     <Container className="" style={{style}}>
-      <ListGroup variant="flush" className="bg-white text-dark">
+      <ListGroup variant="flush" className="pubcon text-dark">
         <h2 className="text-center pt-2">Publications</h2>
         <ListGroup.Item as="li" className="pblst text-white">
           <strong>Anuoluwapo Aremu, Jesujoba Alabi, David Adelani.</strong>
