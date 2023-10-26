@@ -1,4 +1,4 @@
-import Aremu from "../assets/arem.png";
+import Aremu from "../assets/aremupc.jpeg";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
@@ -17,7 +17,7 @@ const Herosection = () => {
           <p style={{ marginLeft: "60px", fontSize: "30px" }}>
             <Typewriter
               options={{
-                strings: ["Aremu Adeola Jr"],
+                strings: ["Aremu A."],
                 autoStart: true,
                 loop: true,
               }}

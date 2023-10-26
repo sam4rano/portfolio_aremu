@@ -13,16 +13,16 @@ const NavBar = ({ handleExperience, handlePublication,handleFooter }) => {
  
   return (
     <Navbar expand="lg" className="bgnav text-light allnav">
-      <Container fluid className="d-flex flex-row justify-content-between">
+      <Container fluid className="d-flex flex-row justify-content-between contab">
         <Navbar.Brand href="#" className="text-light fs-2 bgbrand">
-          AdeolaJr
+          Aremu A.
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" className="bg-light" />
+        <Navbar.Toggle aria-controls="navbarScroll" className="bgtoggle" />
         <Navbar.Collapse id="navbarScroll" className="">
           <div className="d-flex flex-row ms-auto nav_container">
             <Nav
               className=" my-2 text-light nav_con"
-              style={{ maxHeight: "150px" }}
+              style={{ maxHeight: "180px" }}
               navbarScroll
             >
               <Nav.Link href="#" onClick={handlePublication} className="text-light fs-5">
