@@ -13,9 +13,9 @@ import {
 
 function Footer() {
   return (
-    <Container
-      fluid
-      className="bgadded text-white h-auto p-2 d-flex flex-row justify-content-around"
+    <div
+  
+      className="bgadded text-white h-auto p-2 d-flex flex-row justify-content-around flex-wrap"
       style={{ maxHeight: "300px" }}
     >
       <h5 className="w-20 mt-5"> Social links</h5>
@@ -77,7 +77,7 @@ function Footer() {
           </a>
         </li>
       </ul>
-    </Container>
+    </div>
   );
 }
 
