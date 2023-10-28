@@ -1,7 +1,10 @@
 .but {
 	background-color: #D3AC2B ;
 	border-radius: 20px;
-	font-weight: 600;
+	font-weight: 500;
+	text-decoration: none;
+	outline: none;
+	padding: 0 10px ;
 }
 .bgbrand {
 	font-weight: 600;
@@ -9,7 +12,7 @@
 .bgnav {
 	background-color: #333D51;
 }
-.bgtoggle .bgtoggle {
+.contab .bgtoggle {
 	background-color: #D3AC2B;
 }
 

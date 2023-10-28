@@ -10,11 +10,11 @@ import Typewriter from "typewriter-effect";
 
 const Herosection = () => {
   return (
-    <Container fluid className="bghero h-auto ">
+    <Container fluid className="bghero h-auto px-5">
       <div className="container_all p-5">
         <div className="col img_container text-white border-2">
           <img src={Aremu} alt="adeola pics" className="border img_one" />
-          <p style={{ marginLeft: "60px", fontSize: "30px" }}>
+          <p className="p_title">
             <Typewriter
               options={{
                 strings: ["Aremu A."],
